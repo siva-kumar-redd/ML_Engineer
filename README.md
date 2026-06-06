@@ -251,16 +251,6 @@ if not is_raining:
 
 ---
 
-# 🧠 Practice Programs Completed
-
-- ✅ Even or Odd Number
-- ✅ Largest of Two Numbers
-- ✅ Largest of Three Numbers
-- ✅ Positive or Negative Number
-- ✅ Voting Eligibility Checker
-- ✅ Grade Calculator
-
----
 
 # 💻 Mini Project
 
@@ -283,20 +273,9 @@ Grade: B
 
 ---
 
-# 📂 Project Structure
 
-```text
-day2/
-│
-├── even_odd.py
-├── largest_two.py
-├── largest_three.py
-├── positive_negative.py
-├── voting.py
-├── grade.py
-├── result_system.py
-└── README.md
-```
+
+
 
 ---
 
