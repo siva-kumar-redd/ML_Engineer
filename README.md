@@ -109,18 +109,7 @@ Every AI/ML engineer starts by mastering Python fundamentals.
 
 ---
 
-# 📈 Learning Progress
 
-```text
-Variables            ████████████████ 100%
-Data Types           ████████████████ 100%
-Input & Output       ████████████████ 100%
-Operators            ████████████████ 100%
-Python Basics        ███████░░░░░░░░░ 35%
-AI/ML Journey        ██░░░░░░░░░░░░░░ 5%
-```
-
----
 
 # 💡 Day 1 Reflection
 
@@ -129,13 +118,226 @@ Today I learned the fundamental building blocks of Python and completed my first
 > "Small daily improvements lead to remarkable long-term results."
 
 ---
+# 🚀 Day 2 — Decision Making in Python
 
-## 👨‍💻 Author
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-Beginner-blue?style=for-the-badge&logo=python)
+![Day](https://img.shields.io/badge/Day-2-success?style=for-the-badge)
+![Topic](https://img.shields.io/badge/Topic-Decision%20Making-orange?style=for-the-badge)
+
+</div>
+
+---
+
+# 🎯 Goal of Day 2
+
+Today I learned how computers make decisions using conditions in Python.
+
+By the end of today, I can:
+
+✅ Write conditional statements  
+✅ Use comparison operators  
+✅ Use logical operators  
+✅ Build decision-making programs  
+✅ Improve programming logic
+
+---
+
+# 📚 Topics Covered
+
+## 🔹 Comparison Operators
+
+Used to compare values.
+
+| Operator | Meaning |
+|-----------|----------|
+| `==` | Equal to |
+| `!=` | Not Equal to |
+| `>` | Greater than |
+| `<` | Less than |
+| `>=` | Greater than or Equal |
+| `<=` | Less than or Equal |
+
+Example:
+
+```python
+a = 10
+b = 20
+
+print(a < b)
+```
+
+---
+
+## 🔹 If Statement
+
+```python
+age = 18
+
+if age >= 18:
+    print("Eligible to Vote")
+```
+
+---
+
+## 🔹 If-Else Statement
+
+```python
+age = 16
+
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+```
+
+---
+
+## 🔹 If-Elif-Else Statement
+
+```python
+marks = 85
+
+if marks >= 90:
+    print("A Grade")
+elif marks >= 75:
+    print("B Grade")
+else:
+    print("C Grade")
+```
+
+---
+
+## 🔹 Nested If
+
+```python
+age = 20
+
+if age >= 18:
+    if age <= 60:
+        print("Adult")
+```
+
+---
+
+## 🔹 Logical Operators
+
+### AND
+
+```python
+age = 20
+citizen = True
+
+if age >= 18 and citizen:
+    print("Eligible")
+```
+
+### OR
+
+```python
+if age >= 18 or citizen:
+    print("Allowed")
+```
+
+### NOT
+
+```python
+is_raining = False
+
+if not is_raining:
+    print("Go Outside")
+```
+
+---
+
+# 🧠 Practice Programs Completed
+
+- ✅ Even or Odd Number
+- ✅ Largest of Two Numbers
+- ✅ Largest of Three Numbers
+- ✅ Positive or Negative Number
+- ✅ Voting Eligibility Checker
+- ✅ Grade Calculator
+
+---
+
+# 💻 Mini Project
+
+## Student Result System
+
+Features:
+
+- Accept marks input
+- Calculate grade
+- Display result
+
+Example:
+
+```text
+Enter Marks: 85
+
+Result: Pass
+Grade: B
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+day2/
+│
+├── even_odd.py
+├── largest_two.py
+├── largest_three.py
+├── positive_negative.py
+├── voting.py
+├── grade.py
+├── result_system.py
+└── README.md
+```
+
+---
+
+# 🚀 Why This Matters
+
+Decision making is used everywhere in AI and software systems:
+
+- 🤖 Machine Learning Models
+- 📊 Data Processing
+- 🎮 Games
+- 🌐 Web Applications
+- 📱 Mobile Apps
+
+Every intelligent system makes decisions based on conditions.
+
+---
+
+# 📈 Learning Progress
+
+```text
+Python Basics        █████████████░░░ 65%
+Decision Making      ███████████░░░░░ 60%
+Problem Solving      █████████░░░░░░░ 45%
+AI/ML Journey        ████░░░░░░░░░░░░ 15%
+```
+
+---
+
+# 💡 Day 2 Reflection
+
+Today I learned how to make programs think and choose actions using conditions. Decision-making is one of the most important skills in programming and forms the basis of intelligent systems.
+
+> "Good programmers don't just write code—they teach computers how to make decisions."
+
+---
+
+
 
 **Siva**
 
-🎓 MCA Student  
 📊 Aspiring AI/ML Engineer  
 🚀 Building projects daily
 
-⭐ Day 1 Completed Successfully!
+
