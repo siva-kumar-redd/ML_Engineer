@@ -295,12 +295,7 @@ Every intelligent system makes decisions based on conditions.
 
 # 📈 Learning Progress
 
-```text
-Python Basics        █████████████░░░ 65%
-Decision Making      ███████████░░░░░ 60%
-Problem Solving      █████████░░░░░░░ 45%
-AI/ML Journey        ████░░░░░░░░░░░░ 15%
-```
+
 
 ---
 
@@ -494,18 +489,7 @@ for i in range(1, 11):
 
 ---
 
-# 🧠 Practice Programs Completed
 
-- ✅ Print Numbers 1–10
-- ✅ Reverse Counting
-- ✅ Multiplication Table
-- ✅ Sum of Natural Numbers
-- ✅ Even Numbers
-- ✅ Square Pattern
-- ✅ Triangle Pattern
-- ✅ Number Triangle
-
----
 
 # ⚡ First Exposure to Time Complexity
 
@@ -560,35 +544,8 @@ Almost every AI model processes data using loops and iterations.
 
 ---
 
-# 📂 Project Structure
 
-```text
-day3/
-│
-├── for_loop.py
-├── while_loop.py
-├── reverse.py
-├── table.py
-├── square_pattern.py
-├── triangle_pattern.py
-├── number_pattern.py
-├── complexity_demo.py
-└── README.md
-```
 
----
-
-# 📈 Learning Progress
-
-```text
-Python Basics        ███████████████░ 80%
-Decision Making      █████████████░░░ 70%
-Loops & Patterns     ████████████░░░░ 75%
-Problem Solving      ███████████░░░░░ 60%
-AI/ML Journey        █████░░░░░░░░░░░ 20%
-```
-
----
 
 # 💡 Day 3 Reflection
 
@@ -598,39 +555,278 @@ Pattern problems taught me how to think logically and break large problems into 
 
 > "Programming is not about memorizing syntax; it's about training your mind to solve problems."
 
+
+# 🚀 Day 4 — Functions in Python
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-Intermediate-blue?style=for-the-badge&logo=python)
+![Day](https://img.shields.io/badge/Day-4-success?style=for-the-badge)
+![Topic](https://img.shields.io/badge/Topic-Functions-orange?style=for-the-badge)
+
+### 🔥 Learning to Write Reusable and Professional Code
+
+</div>
+
 ---
 
-# 🎯 Next Goals
+# 🎯 Goal of Day 4
 
-- Functions
-- Lists
-- Strings
-- Dictionaries
-- Problem Solving Challenges
+Today I learned how to write reusable code using functions.
+
+By the end of today, I can:
+
+✅ Create functions  
+✅ Pass parameters and arguments  
+✅ Return values from functions  
+✅ Understand variable scope  
+✅ Build reusable programs  
 
 ---
+
+# 📚 What I Learned Today
+
+## 🔹 Function Basics
+
+Functions help organize code into reusable blocks.
+
+```python
+def greet():
+    print("Hello AI Engineer")
+
+greet()
+```
+
+---
+
+## 🔹 Parameters and Arguments
+
+Functions can accept input values.
+
+```python
+def greet(name):
+    print("Hello", name)
+
+greet("Siva")
+```
+
+---
+
+## 🔹 Return Values
+
+Functions can return results.
+
+```python
+def square(num):
+    return num * num
+
+result = square(5)
+
+print(result)
+```
+
+Output:
+
+```text
+25
+```
+
+---
+
+## 🔹 Variable Scope
+
+### Global Variable
+
+```python
+name = "Siva"
+
+def show_name():
+    print(name)
+
+show_name()
+```
+
+### Local Variable
+
+```python
+def demo():
+    age = 21
+    print(age)
+
+demo()
+```
+
+---
+
+# 💻 Programs Implemented
+
+## Welcome Function
+
+```python
+def welcome():
+    print("Welcome to AI/ML Engineering")
+
+welcome()
+```
+
+---
+
+## Motivation Function
+
+```python
+def motivation():
+    print("Never Stop Learning")
+
+motivation()
+```
+
+---
+
+## Student Function
+
+```python
+def student(name, age):
+    print(name, age)
+
+student("Siva", 21)
+```
+
+---
+
+## Square Function
+
+```python
+def square(n):
+    return n * n
+
+print(square(5))
+```
+
+---
+
+## Prediction System
+
+```python
+def prediction(marks):
+    if marks >= 40:
+        return "Pass"
+    else:
+        return "Fail"
+
+print(prediction(75))
+print(prediction(20))
+```
+
+---
+
+# 🧠 Practice Programs Completed
+
+- ✅ Welcome Function
+- ✅ Motivation Function
+- ✅ Student Function
+- ✅ Square Calculator
+- ✅ Prediction System
+- ✅ Scope Demonstration
+
+---
+
+# 🏢 Real-World AI/ML Connection
+
+Functions are heavily used in:
+
+- 🤖 Machine Learning Pipelines
+- 📊 Data Analysis
+- 🧠 AI Applications
+- 🌐 APIs
+- ☁️ Production Systems
+
+Example:
+
+```python
+def load_data():
+    pass
+
+def preprocess_data():
+    pass
+
+def train_model():
+    pass
+
+def evaluate_model():
+    pass
+
+def predict():
+    pass
+```
+
+Professional AI systems are built using hundreds of reusable functions.
+
+---
+
+# 📂 Project Structure
+
+```text
+day4/
+│
+├── welcome.py
+├── motivation.py
+├── student.py
+├── square.py
+├── prediction.py
+├── scope.py
+└── README.md
+```
+
+---
+
+# ⚡ Why Functions Matter
+
+Functions help developers:
+
+- Write less code
+- Avoid repetition
+- Improve readability
+- Debug easily
+- Build scalable applications
+
+Functions are one of the most important concepts in professional software engineering.
+
+---
+
+# 📈 Learning Progress
+
+```text
+Python Basics        ███████████████░ 90%
+Decision Making      ███████████████░ 90%
+Loops & Patterns     ███████████████░ 90%
+Functions            ████████████░░░░ 75%
+Problem Solving      ████████████░░░░ 70%
+AI/ML Journey        ██████░░░░░░░░░░ 25%
+```
+
+---
+
+# 💡 Day 4 Reflection
+
+Today I learned how to write reusable and modular code using functions. Instead of repeating code multiple times, I can now create functions and use them whenever needed.
+
+Functions are a fundamental building block of AI, Machine Learning, and real-world software systems.
+
+> "Write once, use many times."
+
+
+
 
 # 👨‍💻 Author
 
 **Siva**
 
-🎓 MCA Student  
 📊 Aspiring AI/ML Engineer  
 🚀 Building projects daily
 
 ---
 
-<div align="center">
 
-## ⭐ Day 3 Completed Successfully
 
-### 🚀 One Step Closer to Becoming an AI/ML Engineer
-
-</div>
-
-**Siva**
-
-📊 Aspiring AI/ML Engineer  
-🚀 Building projects daily
 
 
